@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title> Услуги по верстке сайтов</title>
+    <link rel="stylesheet" href="Style.css">
+	<script src="Script.js"></script>
+  </head>
+  
+  
+  <body class="body">    <!-- Шапка сайта -->
+    <header class="site-header">
+      <div class="container">
+        <h1>Услуги верстарщика в веб-разрабтке.<br> Сайты на основе CSS HTML </h1>
+        <p>Платформа по представлению услуг в сфере разработки сайтов</p>
+      </div>
+    </header>
+	
+	
+	<section class="features">
+	   <ul class="hover-effect-cover">
+	    <li>
+		  <img src="img/managers_city_bg_e1438126033938.jpg" width="510" height="150">
+			<div class="effect-to-right"> <!-- Выезжающая панель слева направо -->
+			 <p>На Главную</p>
+			 <a href="Index2.html">Aга!</a>
+			</div>
+		</li>
+	   </ul>
+	</section>
+	
+	<section class="container">
+	<br>
+		<p class="title-p-class">Сотрудники</p>
+		<br>
+		<br>
+		<a class="title-p-normal-class">Здесь будут панельки с фотографиями и ФИО сотрудников ;)</a>
+		<br>
+		<br>
+
+	</section>
+	
+	<section class= "container">
+		<li class="li-text">
+			<img src="img/231c805ceb4a353ce60b63fd449ecdfb.jpg" width="150" height="150">
+		  <div>
+		    <p>Фамилия Имя Отчество</p>
+		    <p>Телефон: <a href="">+7(385)******</a></p>
+		    <p>Эл. почта:<a href="Adress.mail.ru">Adress.mail.ru</a></p>
+		  </div>
+		</li>
+		
+		<li class="li-text">
+			<img src="img/231c805ceb4a353ce60b63fd449ecdfb.jpg" width="150" height="150">
+		  <div>
+		    <p>Фамилия Имя Отчество</p>
+		    <p>Телефон: <a href="">+7(385)******</a></p>
+		    <p>Эл. почта:<a href="Adress.mail.ru">Adress.mail.ru</a></p>
+		  </div>
+		</li>
+		
+		<li class="li-text">
+			<img class="img-li-text" src="img/231c805ceb4a353ce60b63fd449ecdfb.jpg" width="150" height="150">
+		  <div>
+		    <p>Фамилия Имя Отчество</p>
+		    <p>Телефон: <a href="">+7(385)******</a></p>
+		    <p>Эл. почта:<a href="Adress.mail.ru">Adress.mail.ru</a></p>
+		  </div>
+		</li>
+		
+	</section>
+	
+	
+	    <footer class="footer">
+		<div class="wrp">
+		 <div class="footer_copi">
+			© Студент, 2022
+			<br>
+			Служба Тех-Поддержки работает по адресу:
+			<br>
+			<a href="sydent.NATK@gmail.com">sydent.NATK@gmail.com</a>
+		  </div>
+			<ul class="footer_menu">
+			  <li>
+				<a href="Index2.html">Услуги</a>
+			  </li>
+			  <li>
+				<a href="Index3.html">Визитка</a>
+			  </li>
+			</ul>
+			
+			<ul class="footer_links">
+			  <li>
+				<a href="Index4.html">Сотрудники</a>
+			  </li>
+			  <li>
+				<a href="Index5.html">О компании</a>
+			  </li>
+			</ul>
+		  </div>
+		 </div>
+		</div>
+    </footer>
+  </body>
+</html>

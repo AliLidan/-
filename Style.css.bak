@@ -1,0 +1,413 @@
+ line-height: 20px;
+  color: #444444;
+}
+@font-face {
+	font-family: "Danube"; 
+	src: url(fons/ofont.ru_KB_Danube.ttf)
+}
+@font-face {
+	font-family: "NfS_MW"; 
+	src: url(fons/ofont.ru_NfS_MW.ttf)
+}
+@font-face {
+	font-family: "Stamps"; 
+	src: url(fons/ofont.ru_PF_Stamps_Pro_Flex.ttf)
+}
+@font-face {
+	font-family: "ft19"; 
+	src: url(fons/ofont.ru_ft19.ttf)
+}
+
+
+h1 { /*Название в шапке сайта*/
+  width: normal;
+  margin: 0 auto 8px;
+  font-family:"ft19", serif;
+  text-align: center;
+  font-weight: normal;
+  font-size: 35px;
+  line-height: 35px;
+  border-bottom: 2px solid #000000;
+}
+
+h2 {/*Название в главных темах сайта*/
+  border-bottom: 2px solid #cccccc;
+  padding-bottom: 12px;
+}
+
+
+.img-class{ /**/
+    vertical-align: top;
+    line-height: 20px;
+    margin: 5px 5px;
+    background-repeat: no-repeat;
+    background-position: auto center;
+    text-align: center;
+}
+.img-class p{	/**/
+	background-color: #fdcc7b;
+    border: 3px #f98006 ridge;
+    height: auto;
+    width: 499px;
+    margin: 10px auto 30px;
+    padding: 5px 5px 5px;
+}
+
+
+.hover-effect-cover {/**/
+	/*Выравниваем картнку успех по центру*/
+    list-style:none;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    padding: 0;
+	font-size: 20px;
+}
+.hover-effect-cover li {/**/
+    position: relative;
+ /* Задаем ширину элемента списка с картинкой*/
+    display: inline-block;
+    margin: 0;
+    box-shadow: 1px 3px 1px 0 rgba(0, 0, 0, 0.08);
+    overflow: hidden;
+	color: #fff;
+    margin: 5px;
+}
+.hover-effect-cover li a{/**/
+	display: block;
+    text-decoration: none;
+    padding: 15px;
+    color: #fff;
+    background: #000;
+    border-radius: 5px;
+    margin: 0 auto;
+    transition: all 0.4s ease-in-out;
+}
+.hover-effect-cover li a:hover {/**/
+    background: #454545;
+    color: #fff;
+}
+
+.hover-effect-cover li > div.effect-to-right {/**/
+    width: 100%;/*Если курсор наведен*/
+    height: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.hover-effect-cover li:hover > div.effect-to-right {/**/
+    position: absolute; /*Если курсор не наведен*/
+    overflow: hidden;
+    top: 0;
+    left: 0;
+}
+.hover-effect-cover li div.effect-to-right {/**/
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0.3); /* Фон блока при наведении */
+    transition: all 0.4s ease-in-out;
+    color: #fff;
+    transform: translate(-250px, 0px) rotate(0deg); /* Направление выезжающей панели */
+}
+.hover-effect-cover li:hover div.effect-to-right {/**/
+    opacity: 1;
+    transform: translate(0px, 0px) rotate(0deg);
+}
+
+
+.body{/**/
+
+	background:url(img/fon3.jpg) repeat-y top center, 
+	url(img/fon1.jpg) repeat top left; 
+	margin: auto;
+}
+
+.container {/**/
+  width: 510px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.site-header {/**/
+    min-width: 150px;
+    height: 186px;
+    margin-bottom: 40px;
+    padding-top: 30px;
+    background: #847462 no-repeat center url(img/gloevk-bg1.jpg);
+	border: 5px  Dotted #56382d;
+    background-size: cover;
+    color: #000000;
+}
+
+.site-header p {/**/
+  width: 255px;
+  margin: 0 auto 26px;
+  text-align: center;
+  font-size: 16px;
+  line-height: 24px; 
+}
+
+.site-header img {/**/
+  display: block;
+  margin: 0 auto;
+}
+
+.features {/**/
+  width: 510px;
+  margin: 0 auto 30px;
+  padding: 0 20px;
+}
+
+.features p {/**/
+ display: inline-block;
+  vertical-align: top;
+  line-height: 20px;
+  margin: 0 5px;
+  background-repeat: no-repeat;
+  background-position: auto center;
+  text-align: center;
+  
+}
+
+.features a{
+	color: #ff7712;
+	font-family:"NfS_MW";
+	font-size: 20px;
+}
+
+.feature-furniture {/**/
+  padding-top: 200px;
+  background-image: url("img/мо-о-ая-коммерсантка-с-тетра-ью-75013101.jpg");
+  width: 163px;
+  height: 65px;
+  background-size: cover;
+  margin: 0px;
+}
+
+.feature-lighting {/**/
+  padding-top: 200px;
+  background-image: url("img/o6x1hq01-scaled.jpg");
+  width: 153px;
+  height: 65px;
+  background-size: cover;
+  margin:0px;
+}
+
+.feature-accessories {/**/
+  padding-top: 200px;
+  background-image: url("img/яб-око-имона-визитной-карточки-установ-енное-46733303.jpg");
+  width: 153px;
+  height: 65px;
+  background-size: cover;
+  margin:0px;
+}
+
+.advantages {/**/
+  width: 510px;
+  margin: 0 auto 40px;
+  padding: 0 20px;
+}
+
+.advantages-list {/**/
+  padding: 0;
+  list-style: none;  
+}
+
+.advantages-item {
+  margin-bottom: 15px;
+  padding-left: 20px;
+  border-left: 20px solid #e2e2e2;
+  color: #999999;
+}
+
+.standard {/**/
+  border-color: #847462;
+  color: #6a6a6a;
+}
+
+/* Добавьте правило для класса vip сюда */
+.vip{/**/
+  border-color:#ffb864;
+  color:#000000;  }
+
+.footer{/**/
+	width: 100%;
+	margin: 0 auto 0;
+	height: 60px;
+	background: #847462;
+	position: relative;
+	border-top: 1px solid #e1e1e1;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-size: 16px;
+	color: #fff;
+}
+.footer a{/**/
+	color: orange;
+}
+
+.footer_copi{/**/
+	color: #fff;
+	display: inline-block;
+	border-bottom-color: #fff;
+}
+.footer_menu{/**/
+	position: absolute;
+	top: 0;
+	left: 400px;
+}
+.footer_links{/**/
+	position: absolute;
+    top: 0;
+    left: 550px;
+}
+.wrp{/**/
+	width: 1088px;
+	margin: 0 auto;
+	position:relative;
+	padding: 0 10px;
+	font: inherit;
+	vertical-align:baseline;
+}
+.tab{/**/
+	margin-left: 40px;
+}
+
+
+
+
+
+
+.hover-effect-cover_2{/**/
+    list-style: none;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+   /* padding: 0;*/
+	width: 510px;
+	margin: 0 auto 30px;
+	padding: 0 20px;
+}
+
+
+
+.hover-effect-cover_2 p{/**/
+  display: inline-block;
+  vertical-align: top;
+  line-height: 20px;
+  margin: 0 px;
+  background-repeat: no-repeat;
+  background-position: auto center;
+  text-align: center;
+}
+
+.hover-effect-cover_2 li {/**/
+    display: inline-block; /*Позиция - в строку*/
+	position: relative;
+    margin: 0;
+	box-shadow: 1px 1px 11px 2px rgba(0, 0, 0, 0.52);
+    overflow: hidden;
+
+}
+.hover-effect-cover_2 li a{/**/
+    text-decoration: none;
+    padding: 15px;
+    color: #fff;
+    background: #000;
+    border-radius: 5px;
+    margin: 0 auto;
+    transition: all 0.4s ease-in-out;
+}
+
+.hover-effect-cover_2 li > div.effect-to-right_2 {/**/
+    width: 100%;/*Если курсор наведен*/
+    height: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.hover-effect-cover_2 li:hover > div.effect-to-right_2 {/**/
+    position: absolute; /*Если курсор не наведен*/
+    overflow: hidden;
+    top: 0;
+    left: 0;
+}
+.hover-effect-cover_2 li div.effect-to-right_2 {/**/
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0.3); /* Фон блока при наведении */
+    transition: all 0.4s ease-in-out;
+    color: #fff;
+    transform: translate(-250px, 0px) rotate(0deg); /* Направление выезжающей панели */
+}
+.hover-effect-cover_2 li:hover div.effect-to-right_2 {/**/
+    opacity: 1;
+    transform: translate(0px, 0px) rotate(0deg);
+}
+
+/*----------------Iindex_3-----------------------*/
+.title-p-class{/**/
+  font-family:"Stamps", serif;
+  text-decoration: underline 5px #cccccc;
+  font-weight: normal;
+  font-size: 35px;
+  line-height: 35px;
+  /*border-bottom: 2px solid #cccccc;*/
+  width: 500px;
+  margin: 0px auto 0px;
+}
+.img-border-class{/**/
+	border: 3px  Ridge #56382d;
+	height:auto;
+	margin:0px 0px 10px 0px;
+}
+.title-p-normal-class{/**/
+	margin:10px 10px;
+}
+
+/*----------------Iindex_4-----------------------*/
+
+.li-text{
+	list-style:none;
+	margin: 5px 38px;
+	width: auto;
+	height: 282px;
+	padding:5px 5px;
+	font-size: 16px;
+	display:inline-block;
+	text-align:center;
+}
+
+/*----------------Iindex_5-----------------------*/
+.li-text_5_Index{
+	list-style:none;
+	margin: 5px 38px;
+	width: auto;
+	height: auto;
+	padding:5px 5px;
+	font-size: 16px;
+	display: inline-block; 
+}
+
+.li-text_5_Index_3{
+    display: inline-block;
+    list-style: none;
+    vertical-align: middle;
+	border: 2px solid #56382d;
+}
+
+.ddddd {
+	width: 290px;
+    height: 154px;
+	font-size: 16px;
+}
+
+.ddddd p{
+	width: 290px;
+    height: 174px;
+	font-size: 16px;
+	text-align:center;
+}
+ .ddddd h2{
+	text-align:center;
+}
